@@ -2,22 +2,22 @@
 	"manifest_version": 2,
 
 	"name": "Follow Me or Not",
-	// "description": "Simple tool to sort a user's GitHub repositories on the basis of project's language. Smoothly fits with the existing GitHub filters",
+	"description": "Check if the GitHub profile you are visiting, follows you or not in a Twitter-like UI",
 	"short_name": "Follow Me or Not",
 	"version": "1.0.0.1",
-	// "author": "Prabhakar Gupta",
-	// "homepage_url": "https://github.com/prabhakar267/github-classifier",
+	"author": "Prabhakar Gupta",
+	"homepage_url": "https://github.com/mkstn/follow-me-or-not",
 
-	// "browser_action": {
-		// "default_title": "Github Classifier",
-		// "default_icon": "assets/images/icon.png"
-	// },
+	"browser_action": {
+		"default_title": "Follow Me or Not",
+		"default_icon": "assets/images/icon.png"
+	},
 
-	// "icons": {
-		// "16": "assets/images/icon.png",
-		// "48": "assets/images/icon.png",
-		// "128": "assets/images/icon.png"
-	// },
+	"icons": {
+		"16": "assets/images/icon.png",
+		"48": "assets/images/icon.png",
+		"128": "assets/images/icon.png"
+	},
 
 	"permissions": ["activeTab"],
 	
@@ -27,7 +27,6 @@
 				"https://github.com/*",
 				"http://github.com/*"
 			],
-			// "css": ["assets/css/classifier.css"],
 			"js": [
 				"assets/js/jquery.min.js",
 				"assets/js/follow-me-or-not.js"
