@@ -8,7 +8,7 @@
 
 ## Other GitHub Extensions
 + [GitHub Email Extractor](https://github.com/prabhakar267/github-email-extractor)
-+ [GitHub Classifier](https://github.com/prabhakar267/github-classifier)
++ [GitHub Classifier [Deprecated]](https://github.com/prabhakar267/github-classifier)
 
 
 --------------------------
