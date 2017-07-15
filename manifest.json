@@ -19,7 +19,7 @@
 	"content_scripts": [
 		{
 			"matches": [
-				"*://github.com/*",
+				"*://github.com/*"
 			],
 			"js": [
 				"assets/js/jquery.min.js",
