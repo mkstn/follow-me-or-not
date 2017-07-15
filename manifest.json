@@ -4,28 +4,22 @@
 	"name": "Follow Me or Not",
 	"description": "Check if the GitHub profile you are visiting, follows you or not in a Twitter-like UI",
 	"short_name": "Follow Me or Not",
-	"version": "1.0.0.1",
+	"version": "1.0.0.2",
 	"author": "Prabhakar Gupta",
 	"homepage_url": "https://github.com/mkstn/follow-me-or-not",
 
-	"browser_action": {
-		"default_title": "Follow Me or Not",
-		"default_icon": "assets/images/icon.png"
-	},
-
 	"icons": {
-		"16": "assets/images/icon.png",
-		"48": "assets/images/icon.png",
-		"128": "assets/images/icon.png"
+		"256": "assets/images/icon.png"
 	},
 
-	"permissions": ["activeTab"],
-	
+	"permissions": [
+		"*://api.github.com/*"
+	],
+
 	"content_scripts": [
 		{
 			"matches": [
-				"https://github.com/*",
-				"http://github.com/*"
+				"*://github.com/*",
 			],
 			"js": [
 				"assets/js/jquery.min.js",
