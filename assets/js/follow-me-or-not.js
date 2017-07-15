@@ -1,8 +1,8 @@
 /*
 * @Author: prabhakar
 * @Date:   2016-08-14 02:20:23
-* @Last Modified by:   Prabhakar Gupta
-* @Last Modified time: 2016-09-17 11:53:32
+* @Last Modified by:   Kuba Niewiarowski
+* @Last Modified time: 2017-07-15 19:35:32
 */
 
 $(function(){
